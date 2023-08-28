@@ -1,0 +1,48 @@
+<form>
+    <div class="form-group">
+        <label for="head">1. Head:</label>
+        <p class="form-text text-muted">Headless robots <i>are</i> a thing, but ours only work with one attached. Head
+            along and choose one!</p>
+        <select id="head" name="head" required="" class="custom-select">
+            <option value="">-- Choose a head --</option>
+            <option value="1">Roll-a-thor head</option>
+            <option value="2">Peanut crusher head</option>
+            <option value="3">D.A.V.E head</option>
+            <option value="4">Andy Roid head</option>
+            <option value="5">Spanner mate head</option>
+            <option value="6">Drillbit 2000 head</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="body">2. Body:</label>
+        <p class="form-text text-muted">Requests can be submitted without a body, but not in our store. Pick up a body!
+        </p>
+        <div class="stacked">
+            <div class="radio form-check"><label for="id-body-1"><input class="form-check-input" type="radio"
+                        name="body" id="id-body-1" required="" value="1">Roll-a-thor body</label></div>
+            <div class="radio form-check"><label for="id-body-2"><input class="form-check-input" type="radio"
+                        name="body" id="id-body-2" required="" value="2">Peanut crusher body</label></div>
+            <div class="radio form-check"><label for="id-body-3"><input class="form-check-input" type="radio"
+                        name="body" id="id-body-3" required="" value="3">D.A.V.E body</label></div>
+            <div class="radio form-check"><label for="id-body-4"><input class="form-check-input" type="radio"
+                        name="body" id="id-body-4" required="" value="4">Andy Roid body</label></div>
+            <div class="radio form-check"><label for="id-body-5"><input class="form-check-input" type="radio"
+                        name="body" id="id-body-5" required="" value="5">Spanner mate body</label></div>
+            <div class="radio form-check"><label for="id-body-6"><input class="form-check-input" type="radio"
+                        name="body" id="id-body-6" required="" value="6">Drillbit 2000 body</label></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="1693217329799">3. Legs:</label>
+        <p class="form-text text-muted">A robot crawling legless on the factory floor is a thing for nightmares. Leg it
+            up!</p>
+        <input class="form-control" type="number" min="1" max="6" id="1693217329799" name="1693217329799"
+            placeholder="Enter the part number for the legs" required="">
+    </div>
+    <div class="form-group">
+        <p class="form-text text-muted">Where do you want your robot shipped?</p>
+        <input class="form-control" type="text" id="address" name="address" placeholder="Shipping address" required="">
+    </div>
+    <button id="preview" type="submit" class="btn btn-secondary">Preview</button><button id="order" type="submit"
+        class="btn btn-primary">Order</button>
+</form>
